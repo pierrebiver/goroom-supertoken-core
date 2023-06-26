@@ -1,2 +1,5 @@
 apiPassword
 helm-chart/charts
+credentials/*
+helm-chart/values-prod.yaml
+helm-chart/values-staging.yaml
