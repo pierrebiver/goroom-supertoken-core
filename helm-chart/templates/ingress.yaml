@@ -11,6 +11,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: supertokens
+                name: {{- include "supertokens.fullname" . | indent 1 }}
                 port:
                   number: 3567
